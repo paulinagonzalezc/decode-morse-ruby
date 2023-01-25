@@ -1,9 +1,8 @@
-<div align="center">
-  <h3><b>Decode a Morse code message</b></h3>
-</div>
+<img src="https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white" alt="ruby" height="auto" />
 
-<img src="{https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white}" alt="ruby" height="auto" />
-<br/>
+<div align="center">
+  <h1><b>Decode a Morse code message</b></h1>
+</div>
 
 # 📗 Table of Contents
 
