@@ -26,7 +26,7 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 Clinic Database <a name="about-project"></a>
+# 📖 Decode a Morse Code Message <a name="about-project"></a>
 
 In this project, we created methods to decode morse code with ruby.
 
