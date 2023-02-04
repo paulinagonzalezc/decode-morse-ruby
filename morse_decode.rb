@@ -60,7 +60,7 @@ puts decode_word('-- -.--')
 def decode(message)
   decoded_message = ''
   words_array = message.split('   ')
-  words_array.each { |word| decoded_message += " #{decode_word(word)}" }
+  words_array.each { |word| decoded_message + " #{decode_word(word)}" }
   decoded_message.strip
 end
 
