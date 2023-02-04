@@ -1,3 +1,5 @@
+require 'pry'
+
 # Create a method to decode a Morse code character
 @morse_dict = {
   '.-' => 'A',
@@ -60,7 +62,7 @@ puts decode_word('-- -.--')
 def decode(message)
   decoded_message = ''
   words_array = message.split('   ')
-  words_array.each { |word| decoded_message + " #{decode_word(word)}" }
+  words_array.each { |word| decoded_message += " #{decode_word(word)}" }
   decoded_message.strip
 end
 
@@ -69,3 +71,5 @@ puts decode('-- -.--   -. .- -- .')
 
 puts decode(' .-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
 # => A BOX FULL OF RUBIES
+
+binding.pry
